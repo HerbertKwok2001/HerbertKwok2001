@@ -34,3 +34,7 @@ Condition(tbd): Nature/Score/Call for action (will be elaborated in detail secti
 3.3	Incident Response (will list out what condition need to be fulfilled)
 -	HKMA (Andy, Alex)
 -	PwC (Michael Ching)
+
+In inventory list provided by OGCIO and investigated by our SOC:
+HKMA related which cause potential impact(call for action) eg Cisco, paloalto etc
+Cybersecurity related: splunk, java,python etc
