@@ -40,3 +40,7 @@ In inventory list provided by OGCIO and investigated by our SOC:
 HKMA related which cause potential impact(call for action) eg Cisco, paloalto etc
 
 Cybersecurity related: splunk, java,python etc
+----------------------------------------------------------------------------
+
+Virustotal:
+- Enhancement: VirusTotal Enterprise
