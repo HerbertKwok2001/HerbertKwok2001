@@ -1,0 +1,60 @@
+Created,Issue key,Summary,Status,Outstanding,Follow-up Actions
+07/10/2024,ITSSOC-7672,"[TI] [Lynx Ransomware] New Ransomware Group, Lynx Ransomware, Shares Code Similarities with Inc. Ransomware ",In Progress,,
+04/10/2024,ITSSOC-7664,[TI] [CVE] [Avast] Avast Antivirus Flaw Could Allow Hackers to Delete Files and Run Code as SYSTEM (CVE-2024-5102) (CVSS:7.3),Done,,
+04/10/2024,ITSSOC-7663,[TI] [CVE] [Jenkins] Jenkins OpenId Connect Authentication Plugin potentially gaining administrator access (CVE-2024-47806 & CVE-2024-47807) (CVSS:8.3),In Progress,,
+04/10/2024,ITSSOC-7662,[TI] [CVE] [Apache] Apache Avro Java SDK: Arbitrary Code Execution when reading Avro Data (Java SDK) (CVE-2024-47561),Done,,
+04/10/2024,ITSSOC-7661,[TI] [CVE] [Sophos] Resolved LPE vulnerability in Sophos Intercept X for Windows (CVE-2024-8885) ,Done,,
+03/10/2024,ITSSOC-7650,[TI] [CVE] [Cisco] Cisco Nexus Dashboard Fabric Controller Web UI Command Injection Vulnerability (CVE-2024-20432) (CVSS: 9.9),In Progress,,
+02/10/2024,ITSSOC-7631,[TI] [CVE] [Linux] PoC Exploit Shows Local Privilege Escalation Risk in Linux (CVE-2024-26808),In Progress,,
+02/10/2024,ITSSOC-7630,[TI] [CVE] [WordPress TI WooCommerce] Unpatched SQLi Flaw in WordPress TI WooCommerce (CVE-2024-43917) (CVSS score: 9.3),In Progress,,
+30/09/2024,ITSSOC-7624,[TI] [CVE] [Wordpress GiveWP plugin] CVE-2024-8353 (CVSS 10): Critical GiveWP Flaw,In Progress,,
+30/09/2024,ITSSOC-7622,[TI] [CVE] [Zimbra] Zimbra - Remote Command Execution (CVE-2024-45519),Done,,Notified the responsible parties via email
+30/09/2024,ITSSOC-7618,[TI] [CVE] [NVIDIA Container Toolkit] CVE-2024-0132 container escape attacks and gain full access to the host system,In Progress,,
+26/09/2024,ITSSOC-7567,"[TI] [CVE] [Aruba] Aruba Access Points Exposes to Remote Code Execution (RCE) Attacks (CVE-2024-42505, CVE-2024-42506, CVE-2024-42507) ",In Progress,,
+26/09/2024,ITSSOC-7562,[TI] [CVE] [FlashArray] FlashArray Purity Exposed Local Configuration Account Vulnerability (CVSS: 10),Done,,Notified the responsible parties via email
+24/09/2024,ITSSOC-7533,[TI] [CVE] [Grafana] Critical Grafana Plugin SDK Flaw Exposes Sensitive Information (CVE-2024-8986),Done,,Notified the responsible parties via email
+23/09/2024,ITSSOC-7514,[TI] [CrowdStrike] CrowdStrike Outage Disrupts Global Financial Sector and Central Banks,Done,,
+20/09/2024,ITSSOC-7503,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-09-16): Multiple Vulnerabilities in VMware Products,In Progress,,Notified the responsible parties via email
+20/09/2024,ITSSOC-7502,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-09-17): Vulnerability in GitLab for subscribers (CVE-2024-45409),In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7448,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-09-08): Multiple Vulnerabilities in Microsoft Products (September 2024),In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7447,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-09-09): Multiple Vulnerabilities in Ivanti Products,Done,,
+16/09/2024,ITSSOC-7446,[OGCIO] [TI] [CVE] Further Update to High Threat Security Alert (A24-09-11a): Multiple Vulnerabilities in Adobe Reader/Acrobat,In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7439,[TI] [CVE] [Palo Alto] Command Injection Vulnerability in Palo Alto Networks PAN-OS (CVE-2024-8686),In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7438,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-09-14): Multiple Vulnerabilities in GitLab,In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7437,[TI] [CVE] [Kibana] Kibana?s Amazon Bedrock Connector Deserialization Flaw Lead to Remote Code Execution [CVE-2024-37288],In Progress,,Notified the responsible parties via email
+16/09/2024,ITSSOC-7435,[TI] [CVE] [Jenkins] [PoC Available] PoC released for Critical Jenkins Vulnerability Exposes Servers to RCE Attacks (CVE-2024-43044),In Progress,,Notified the responsible parties via email
+09/09/2024,ITSSOC-7362,[OGCIO] [TI] [CVE] Further Update to High Threat Security Alert (A24-08-13a): Vulnerability in SonicWall Products for subscribers,In Progress,,
+06/09/2024,ITSSOC-7347,"[TI] [CVE] [Veeam] Veeam Backup & Replication Faces RCE Flaw Allows Full System Takeover [CVE-2024-40711, CVSS v3: 9.8]",Done,,Notified the responsible parties via email
+04/09/2024,ITSSOC-7318,[TI] [OGCIO] [VMware Fusion] High Threat Security Alert (A24-09-01): Vulnerability in VMware Fusion,Done,,
+30/08/2024,ITSSOC-7259,[TI] [AWS] New Phishing Campaign Targets AWS Accounts,In Progress,,
+30/08/2024,ITSSOC-7253,[TI] [Snake Keylogger] [Windows] Phishing campaign in the wild targeted Windows Uers,In Progress,,
+30/08/2024,ITSSOC-7252,[TI] [Malware] [MacOS] Cthulhu Stealer Malware Threatens macOS Users,Done,,
+29/08/2024,ITSSOC-7226,"[TI] [Dell Client] Arbitrary Code Execution Flaw in Dell Client Platform BIOS (CVE-2024-39584, CVSS Score: 8.2)",Done,,
+29/08/2024,ITSSOC-7202,"[TI] [Hillstone] Hillstone Networks Addresses Critical RCE Vulnerability in WAF (CVE-2024-8073, CVSS 9.8)",Done,,
+23/08/2024,ITSSOC-7091,[TI] [CVE] [Wordpress Plugin] CVE-2024-6500 (InPost Plugins Critical File Deletion Flaw) and CVE-2024-28000 (LiteSpeed Cache Plugin Actively Exploited),In Progress,,Notified the responsible parties via email
+22/08/2024,ITSSOC-7061,[OGCIO] [TI] [CVE] [Google Chrome] CVE-2024-7971: Type Confusion Vulnerability in Chrome V8 Javascript,In Progress,,Notified the responsible parties via email
+20/08/2024,ITSSOC-6985,[TI] [CVE] [Kubernetes] CVE-2024-7646: Ingress-NGINX Annotation Validation Bypass,In Progress,,Notified the responsible parties via email
+16/08/2024,ITSSOC-6914,[OGCIO] [TI] [CVE] Further Update to High Threat Security Alert (A24-08-07a): Multiple Vulnerabilities in Microsoft Products (August 2024) (CVE-2024-38063) ,Done,,Notified the responsible parties via email
+15/08/2024,ITSSOC-6896,[TI] [CVE] [SolarWinds] SolarWinds Web Help Desk Java Deserialization Remote Code Execution Vulnerability,In Progress,Pend on Close ticket,
+14/08/2024,ITSSOC-6862,[OGCIO] [TI] [CVE] High Threat Security Alert (A24-08-07): Multiple Vulnerabilities in Microsoft Products (August 2024) ,Done,,Notified the responsible parties via email
+14/08/2024,ITSSOC-6857,[TI] [CVE] [PostgreSQL] Security Flaw in PostgreSQL: Allows Arbitrary SQL Execution (CVE-2024-7348),In Progress,Comment,
+13/08/2024,ITSSOC-6821,[TI] [CVE] [Remote Desktop] PoC released for Windows Remote Desktop (RD) Licensing Service Remote Code Execution Vulnerability (CVE-2024-38077),In Progress,Pend on Close ticket,Notified the responsible parties via email
+12/08/2024,ITSSOC-6794,[TI] [CVE] [OpenSSH] [FreeBSD] Pre-Authentication Vulnerability in FreeBSD Exposes Systems to RCE,In Progress,Pend on Close ticket,
+12/08/2024,ITSSOC-6792,[TI] [CVE] [OpenVPN] CVE-2024-27459: OpenVPN Flaws Leading to Potential RCE and LPE,In Progress,Pend on Close ticket,
+09/08/2024,ITSSOC-6762,[TI] [CVE] [Jenkins] CVE-2024-43044: Critical Jenkins Vulnerability Exposes Servers to RCE Attacks,In Progress,Pend on Close ticket,
+08/08/2024,ITSSOC-6726,[TI] [Cloud] [Backdoor] Malicious Actors leveraging Cloud Services,In Progress,Pend on blocking,
+08/08/2024,ITSSOC-6719,[TI] [CVE] [Linux] New Linux Kernel Exploit Technique 'SLUBStick' Discovered by Researchers,In Progress,Pend on Close ticket,
+06/08/2024,ITSSOC-6650,[TI] [CVE] [Apache] Pre-auth RCE vulnerability in Apache OFBiz (CVE-2024-38856),In Progress,Pend on Close ticket,
+06/08/2024,ITSSOC-6633,[TI] StormBamboo Compromises ISP to Abuse Insecure Software Update Mechanisms ,In Progress,Pend on blocking,
+02/08/2024,ITSSOC-6566,[TI] [Impersonation] [Google Authenticator] Threat actor impersonates Google via fake ad for Authenticator,In Progress,Pend on blocking,
+01/08/2024,ITSSOC-6542,"[TI] [SSL certificate] DigiCert validation bug sets up 83,000+ SSL certs for revoking",In Progress,Pend on Close ticket,
+31/07/2024,ITSSOC-6530,[TI] [Impersonation] [Google Chrome] Gh0st RAT Malware Attacks Chinese Users Via Fake Chrome Page,In Progress,Pend on blocking,
+30/07/2024,ITSSOC-6516,[TI] VMware ESXi auth bypass in ransomware attacks,In Progress,Pend on Close ticket,
+30/07/2024,ITSSOC-6515,[TI] [ServiceNow] Critical RCE Bugs Under Active Exploit,In Progress,Pend on Close ticket,
+29/07/2024,ITSSOC-6512,[TI] Latest Hong Kong Security Incidents in 2024,In Progress,Pend on Close ticket,
+29/07/2024,ITSSOC-6505,[TI] Cisco VPN Routers Flaw Let Attackers Execute Remote Code,In Progress,Pend on Close ticket,
+29/07/2024,ITSSOC-6503,[TI] July Windows Server updates break Remote Desktop connections,Done,,
+26/07/2024,ITSSOC-6482,[TI] [Oxfam HK] Cyberattack Incident,Done,,
+25/07/2024,ITSSOC-6469,[TI] Critical Docker Bypass Authentication Vulnerability (CVE-2024-41110),In Progress,Pend on Close ticket,
+25/07/2024,ITSSOC-6468,[TI] Malware Distribution Service in GitHub,In Progress,Pend on blocking,
+19/07/2024,ITSSOC-6342,[TI] Incident on Windows Machines Crashes with BSOD,In Progress,Pend on blocking,
