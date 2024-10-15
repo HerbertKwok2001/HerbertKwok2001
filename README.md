@@ -1,22 +1,36 @@
-- 👋 Hi, I’m @HerbertKwok2001
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+Date of Evaluation	15/10/2024
+Vulnerability CVE ID	CVE-2024-45731, CVE-2024-45732, CVE-2024-45733
+Age of Vulnerability	Last 3 Days
+CvSS v3 Impact Score	High - 7.0 to 8.9
+SOC Product Coverage	Known to be used by SOC Client(s)
+Initial Access	No - Authenticated
+Impact of Exploitation	Remote Code Execution
+Attack Complexity	Low
+Privileges Required	Normal User Privileges
+User Interaction	No
+Attack Vector	Network
+Proof-of-Concept	No
+Exploited in the Wild	No Exploitation in the Wild
+Threat Discussion - Dark Web	No
+Threat Discussion - Social Media	No
+Threat Discussion - OSINT	No
+Patch or Mitigation Available	Yes
+Potentially Vulnerable Victims in Hong Kong, Macau, China, Malaysia (Shodan)?	N/A
+EPSS Score at time of evaluation	No
+	
+	
+Final Score	4.65
+Outcome	No further escalation required
+Date of listing	14/10/2024
+Name of Vulnerability	Multiple Splunk Enterprise Critical Vulnerabilities Enable Attackers Execute Remote Code
+Product 	Splunk Enterprise and Splunk Cloud Platform
+Impacted Versions	Splunk Enterprise: Prior to 9.3.1, 9.2.3, and 9.1.6 or higher
+Splunk Cloud Platform: Prior to 9.2.2403.103, 9.1.2312.200, 9.1.2312.110, and 9.1.2308.208 
+Vendor Advisory	https://advisory.splunk.com/
 
-https://pdfs.gexhlbits.com/pdfs/message.jsp#fintech@hkma.gov.hk		
-		
-		
-		
-		
+Third Party Advisory	https://cybersecuritynews.com/splunk-vulnerabilities-remote-code/
 
-[Join the meeting now ](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjZjMzZmMTQtYmQ3Zi00YjA0LWE4YzktMjAyOGJmMTE2MGY1%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
+	
+Manual Override?	No
+Reason of Override	 
 
-https://securityonline.info/cvss-9-8-vulnerabilities-expose-aruba-access-points-to-rce-hpe-urges-immediate-action/
-
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGY1ZTM1OGItOWNmZC00NGQ3LWIyN2EtNTI1MDRiNTk3MmE3%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
-
-
- 
