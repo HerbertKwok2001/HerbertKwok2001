@@ -1,36 +1,15 @@
-Date of Evaluation	15/10/2024
-Vulnerability CVE ID	CVE-2024-45731, CVE-2024-45732, CVE-2024-45733
-Age of Vulnerability	Last 3 Days
-CvSS v3 Impact Score	High - 7.0 to 8.9
-SOC Product Coverage	Known to be used by SOC Client(s)
-Initial Access	No - Authenticated
-Impact of Exploitation	Remote Code Execution
-Attack Complexity	Low
-Privileges Required	Normal User Privileges
-User Interaction	No
-Attack Vector	Network
-Proof-of-Concept	No
-Exploited in the Wild	No Exploitation in the Wild
-Threat Discussion - Dark Web	No
-Threat Discussion - Social Media	No
-Threat Discussion - OSINT	No
-Patch or Mitigation Available	Yes
-Potentially Vulnerable Victims in Hong Kong, Macau, China, Malaysia (Shodan)?	N/A
-EPSS Score at time of evaluation	No
-	
-	
-Final Score	4.65
-Outcome	No further escalation required
-Date of listing	14/10/2024
-Name of Vulnerability	Multiple Splunk Enterprise Critical Vulnerabilities Enable Attackers Execute Remote Code
-Product 	Splunk Enterprise and Splunk Cloud Platform
-Impacted Versions	Splunk Enterprise: Prior to 9.3.1, 9.2.3, and 9.1.6 or higher
-Splunk Cloud Platform: Prior to 9.2.2403.103, 9.1.2312.200, 9.1.2312.110, and 9.1.2308.208 
-Vendor Advisory	https://advisory.splunk.com/
-
-Third Party Advisory	https://cybersecuritynews.com/splunk-vulnerabilities-remote-code/
-
-	
-Manual Override?	No
-Reason of Override	 
-
+0be3116a3edc063283f3693591c388eec67801cdd140a90c4270679e01677501
+1cb4ff70f69c988196052eaacf438b1d453bbfb08392e1db3df97c82ed35c154
+2c327087b063e89c376fd84d48af7b855e686936765876da2433485d496cb3a4
+5390ba094cf556f9d7bbb00f90c9ca9e04044847c3293d6e468cb0aaeb688129
+57e59b156a3ff2a3333075baef684f49c63069d296b3b036ced9ed781fd42312
+5b30a5b71ef795e07c91b7a43b3c1113894a82ddffc212a2fa71eebc078f5118
+5c71601717bed14da74980ad554ad35d751691b2510653223c699e1f006195b8
+60d96087c35dadca805b9f0ad1e53b414bcd3341d25d36e0190f1b2bbfd66315
+92c8b63b2dd31cf3ac6512f0da60dabd0ce179023ab68b8838e7dc16ef7e363d
+a2f2e88a5e2a3d81f4b130a2f93fb60b3de34550a7332895a084099d99a3d436
+b9677c50b20a1ed951962edcb593cce5f1ed9c742bc7bff827a6fc420202b045
+cfb1e3cc05d575b86db6c85267a52d8f1e6785b106797319a72dd6d19b4dc317
+e5812860a92edca97a2a04a3151d1247c066ed29ae6bbcf327d713fbad7e79e8
+f74ebf0506dc3aebc9ba6ca1e7460d9d84543d7dadb5e9912b86b843e8a5b671
+![Uploading image.png…]()
