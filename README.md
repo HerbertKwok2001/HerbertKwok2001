@@ -1,10 +1,9 @@
-Aliases:
-Evasive Panda
-Country of origin:
-unknown
-Known targets:
-United Kingdom, India, Hong Kong
-Target sectors:
-Dissident, Government
-Threat category:
-Espionage
+Threat Actor Profiling
+
+Aliases
+Country of origin
+Known targets
+Active Since
+Target sectors
+Primary Objectives
+Techniques
