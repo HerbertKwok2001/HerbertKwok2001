@@ -1,37 +1,35 @@
 Date of Evaluation	26/11/2024
-Vulnerability CVE ID	CVE-2024-5921
-Age of Vulnerability	Last 3 Days
-CvSS v3 Impact Score	Medium/Low - 0.1 - 6.9
-SOC Product Coverage	Known to be used by SOC Client(s)
+Vulnerability CVE ID	CVE-2024-10220
+Age of Vulnerability	Last Week (7 Days)
+CvSS v3 Impact Score	High - 7.0 to 8.9
+SOC Product Coverage	Unknown use by SOC clients
 Initial Access	No - Authenticated
 Impact of Exploitation	Remote Code Execution
 Attack Complexity	Low
-Privileges Required	Privilege Escalation
+Privileges Required	Normal User Privileges
 User Interaction	No
-Attack Vector	Local
-Proof-of-Concept	Yes
+Attack Vector	Network
+Proof-of-Concept	No
 Exploited in the Wild	No Exploitation in the Wild
 Threat Discussion - Dark Web	No
 Threat Discussion - Social Media	No
 Threat Discussion - OSINT	No
 Patch or Mitigation Available	No
 Potentially Vulnerable Victims in Hong Kong, Macau, China, Malaysia (Shodan)?	No
-EPSS Score at time of evaluation	No
+EPSS Score at time of evaluation	0.04%
 	
 	
-Final Score	5.91
-Outcome	Email Communications
-Date of listing	26/11/2024
-Name of Vulnerability	PoC Released for Palo Alto Networks GlobalProtect App Insufficient Certificate Validation Leads to Privilege Escalation
-Product 	GlobalProtect app
-Impacted Versions	All versions of GlobalProtect app 6.3, 6.1, 6.0, 5.1
-All versions of GlobalProtect UWP App on Windows
+Final Score	2.70
+Outcome	No further escalation required
+Date of listing	22/11/2024
+Name of Vulnerability	Kubernetes Specially Crafted gitRepo Volumes Allow Arbitrary Command Execution
+Product 	kubelet
+Impacted Versions	kubelet v1.30.0 to v1.30.2
+kubelet v1.29.0 to v1.29.6
+kubelet <= v1.28.11
+Vendor Advisory	https://www.openwall.com/lists/oss-security/2024/11/20/1
 
-For GlobalProtect app 6.2, it affected:
-All versions on macOS and Linux
-Vendor Advisory	https://security.paloaltonetworks.com/CVE-2024-5921
-
-Third Party Advisory	https://securityonline.info/palo-alto-networks-warns-of-globalprotect-app-flaw-with-public-exploit-code-cve-2024-5921/
+Third Party Advisory	https://groups.google.com/g/kubernetes-security-announce/c/ptNgV5Necko?pli=1
 
 	
 Manual Override?	No
