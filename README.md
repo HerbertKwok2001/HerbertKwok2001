@@ -1,19 +1,38 @@
-==Background==
+Date of Evaluation	26/11/2024
+Vulnerability CVE ID	CVE-2024-5921
+Age of Vulnerability	Last 3 Days
+CvSS v3 Impact Score	Medium/Low - 0.1 - 6.9
+SOC Product Coverage	Known to be used by SOC Client(s)
+Initial Access	No - Authenticated
+Impact of Exploitation	Remote Code Execution
+Attack Complexity	Low
+Privileges Required	Privilege Escalation
+User Interaction	No
+Attack Vector	Local
+Proof-of-Concept	Yes
+Exploited in the Wild	No Exploitation in the Wild
+Threat Discussion - Dark Web	No
+Threat Discussion - Social Media	No
+Threat Discussion - OSINT	No
+Patch or Mitigation Available	No
+Potentially Vulnerable Victims in Hong Kong, Macau, China, Malaysia (Shodan)?	No
+EPSS Score at time of evaluation	No
+	
+	
+Final Score	5.91
+Outcome	Email Communications
+Date of listing	26/11/2024
+Name of Vulnerability	PoC Released for Palo Alto Networks GlobalProtect App Insufficient Certificate Validation Leads to Privilege Escalation
+Product 	GlobalProtect app
+Impacted Versions	All versions of GlobalProtect app 6.3, 6.1, 6.0, 5.1
+All versions of GlobalProtect UWP App on Windows
 
-Our Cyber Threat Intelligence investigated the incident and found 3 Leaked Credential related to your organisation exposed in dark web. The credentials are listed below:
+For GlobalProtect app 6.2, it affected:
+All versions on macOS and Linux
+Vendor Advisory	https://security.paloaltonetworks.com/CVE-2024-5921
 
- 
+Third Party Advisory	https://securityonline.info/palo-alto-networks-warns-of-globalprotect-app-flaw-with-public-exploit-code-cve-2024-5921/
 
-EMAIL	DOMAIN	PASSWORD	SOURCE	POSTED DATE	SERVICE
-atpau@hkma.gov.hk	hkma.gov.hk	 	legion team	Nov, 15th 2023	Undisclosed
-frederick_kw_lau@hkma.gov.hk	hkma.gov.hk	 	legion team	Nov, 15th 2023	Undisclosed
-eric_tc_wong@hkma.gov.hk	hkma.gov.hk	 	legion team	Nov, 15th 2023	Undisclosed
- 
-
-As per our open-source investigation through passive means, we observe that:​
-
-Legion Team Credentials automatically extracted from various Telegram channels.
-
- 
-
-We recommend confirming that the service coverage is to customers only, or whether it also includes staff and/or third-party, and evaluate if accounts with administrative privileges require a password change.  We also recommend to heighten monitoring of customer login to indicate anomalies in location or timing, and review password policies and evaluate if there is a need to strengthen (e.g., mandate password rotation regularly). A further recommendation is to reach out to these account holders if the accounts are still active, and request that they change their passwords.​
+	
+Manual Override?	No
+Reason of Override	 
