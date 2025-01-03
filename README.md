@@ -1,5 +1,11 @@
-Actively Exploited Unauthenticated Denial of Service (DoS) Vulnerability in DNS Security Feature of Palo Alto Networks Firewall (CVE-2024-3393)
-
-On 27 December 2024, Palo Alto Networks released a Security Advisory disclosing a new vulnerability impacting PAN-OS (CVE-2024-3393). The vulnerability enables an unauthenticated, remote attacker to achieve a Denial of Service (DoS) by sending a specially crafted packet through the firewall's data plane, disrupting firewall operations and forcing them into maintenance mode. Palo Alto Networks has confirmed active exploitation of this vulnerability in production environments.
-
-Palo Alto Networks is aware of customers experiencing this denial of service (DoS) when their firewall blocks malicious DNS packets that trigger this issue. However, it has not disclosed specific technical details regarding the mechanics of the vulnerability or the precise conditions under which it can be exploited.7 As of the time of writing, there are no indicators of compromise (IOCs) related to the CVE-2024-3393 vulnerability.
+•
+PAN-OS 11.2: Affected versions < 11.2.3
+•
+PAN-OS 11.1: Affected versions < 11.1.5
+•
+PAN-OS 10.2: Affected versions >= 10.2.8, < 10.2.10-h12, < 10.2.13-h2
+•
+PAN-OS 10.1: Affected versions >= 10.1.14, < 10.1.14-h8
+•
+Prisma Access: Affected versions >= 10.2.8 on PAN-OS< 11.2.3 on PAN-OS
+*Note: PAN-OS 11.0 reached the end of life (EOL), PA did not provide a fix for this release.
