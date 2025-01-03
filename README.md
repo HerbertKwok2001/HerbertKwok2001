@@ -1,33 +1,5 @@
-Below is the summary of "日航系統一度遭網絡攻擊" on 26 December 2024.
+Actively Exploited Unauthenticated Denial of Service (DoS) Vulnerability in DNS Security Feature of Palo Alto Networks Firewall (CVE-2024-3393)
 
- 
+On 27 December 2024, Palo Alto Networks released a Security Advisory disclosing a new vulnerability impacting PAN-OS (CVE-2024-3393). The vulnerability enables an unauthenticated, remote attacker to achieve a Denial of Service (DoS) by sending a specially crafted packet through the firewall's data plane, disrupting firewall operations and forcing them into maintenance mode. Palo Alto Networks has confirmed active exploitation of this vulnerability in production environments.
 
-==Background on the Incident==
-Per investigation by researchers. an unknown threat actor attempted to overwhelm Japan Airlines' network with enormous data transmissions, similar to a Distributed Denial of Service (DDoS) attack, which has lasted a few hours. 
-
-The attack caused delays and cancellations of flights, but did not result in malware deployment or data theft, confirmed by Japan Airlines at this time.
-
-==OSINT Analysis and Dark Web Findings==
-Until 27 December 2024, PwC is not aware of data breach or selling on the Dark Web.
-
-In January 2024, AerCap suffered a ransomware attack resulting in data theft, and in March, Air Europa experienced a similar attack, indicating a trend of increasing cyber threats in the aviation sector.
-
-==Conclusion==
-At this time of writing, there is no Indicators of Compromise (IoCs) have been published. PwC will continue ongoing monitoring for any potential data breaches or updates, including any new information about the threat actors involved.
-
-
-
- On 26 December 2024, Japan Airlines was impacted by a cyberattack resulting in operational disruptions. According to public reporting, the attack was suspected to have been a Distributed Denial of Service (DDoS) attack. This is based on Japan Airline's tweet indicating the "issue was due to a large data attack and did not result in any customer data leaks or virus infections". [link - see michael's whatsapp]
- 
-The attack caused delays and cancellations of flights, but did not result in malware deployment or data theft, confirmed by Japan Airlines at this time. In response to the attack, Japan Airlines temporarily disabled the impacted router and suspended ticket sales for flights departing on 26 December.
- 
-oSINT
-As of 27 December 2024, PwC has not observed any data breach or sales listed on the dark web for Japan Airlines.
- 
-This is not the first instance of an airline being impacted by a DDoS attack. In January.......
- 
- 
---
-everything else ok~
- 
- 
+Palo Alto Networks is aware of customers experiencing this denial of service (DoS) when their firewall blocks malicious DNS packets that trigger this issue. However, it has not disclosed specific technical details regarding the mechanics of the vulnerability or the precise conditions under which it can be exploited.7 As of the time of writing, there are no indicators of compromise (IOCs) related to the CVE-2024-3393 vulnerability.
