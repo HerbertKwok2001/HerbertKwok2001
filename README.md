@@ -1,1 +1,4 @@
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzFiZmE0NjMtZDYzNy00ZjBmLTgyMmUtZWMyZmU2NzY3Zjk5%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22e9351c57-c33a-4a68-ae3b-343a4c04f4ae%22%7d
+All inbound traffic from 185.213.27[.]94 has been blocked/denied.
+No callbacks have been observed, indicating no signs of compromise from this IP address.
+The threat actor primarily targets government entities.
+According to our sources, the Hong Kong Monetary Authority (HKMA) has not received phishing emails from this threat actor.
