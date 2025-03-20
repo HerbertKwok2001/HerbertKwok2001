@@ -87,7 +87,6 @@ Target node: DEFAULT DOMAIN POLICY@SECURA.YZX
 └─$ wget https://github.com/FuzzySecurity/StandIn/releases/download/v1.3/StandIn_v13_Net35_45.zip
 unzip StandIn_v13_Net35_45.zip
 
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTQ0NDUwMjUtYzRjZi00NTA3LThjNTEtNjVhNjBmMWQyNzJi%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
-
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTkzODQ0ZDctOWNlOC00ODgzLWE1ZTktYzJjOTg5YTcyYmNl%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
 
