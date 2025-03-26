@@ -89,4 +89,5 @@ unzip StandIn_v13_Net35_45.zip
 
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTkzODQ0ZDctOWNlOC00ODgzLWE1ZTktYzJjOTg5YTcyYmNl%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGU5ZTMyOTEtZDE0Yy00NTAyLTgwODEtZDBhMzAxNThjNmIx%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%2277d39a35-49e3-4059-a014-4687f247638d%22%7d
 
