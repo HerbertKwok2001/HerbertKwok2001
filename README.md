@@ -101,4 +101,6 @@ We recommend to follow the security advisory released by SentinelOne - Enable th
 
 (Go To "Sentinels" -> "Policy" -> "Agent" -> "Local Upgrade/DownGrade" -> Enable "Online Authorization")
 
-Some configurations may be disabled due to easy maintenance by IT, so it's not mandatory to enable all the security configurations. This depends on the operation team's decision.‌
+Some configurations may be disabled due to easy maintenance by IT, so it's not mandatory to enable all the security configurations. This depends on the operation team's decision.
+
+https://www.sentinelone.com/blog/protection-against-local-upgrade-technique-described-in-aon-research/‌
