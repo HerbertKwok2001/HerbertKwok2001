@@ -91,16 +91,5 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmY0MDU3MGMtZjI2OC00OTA3L
 
 https://bisih.sharepoint.com.mcas.ms/sites/ProjectmCBDCBridgeConsortium/Shared Documents/Forms/AllItems.aspx
 
-Background
-Recently, we have observed sophisticated new attack method that disables endpoint security protection has been identified. Threat actors usually disable Antivirus/EDR to perform attacks. Once the solution is installed with an insecure configuration, it is easy for threat actors to exploit.
- 
-If malicious actors successfully execute legitimate signed SentinelOne installer files, then when the installer runs, SentinelOne service cannot be processed because the existing processes are terminated and the new version has not yet been installed. This creates a window of opportunity for attackers to exploit without being authenticated.
-
-Recommendations
-We recommend to follow the security advisory released by SentinelOne - Enable the "Online Authorization" feature in SentinelOne’s Policy setting, which is to ensure that any upgrades, downgrades, or uninstalls are approved from the administrator.
-
-(Go To "Sentinels" -> "Policy" -> "Agent" -> "Local Upgrade/DownGrade" -> Enable "Online Authorization")
-
-Some configurations may be disabled due to easy maintenance by IT, so it's not mandatory to enable all the security configurations. This depends on the operation team's decision.
-
-https://www.sentinelone.com/blog/protection-against-local-upgrade-technique-described-in-aon-research/‌
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWY5YWRlNDAtZTdmZi00ODIxLWI2OTYtYzY2ZjMwMGE5MDM5%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
+‌
