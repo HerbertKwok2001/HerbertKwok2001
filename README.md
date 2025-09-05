@@ -89,5 +89,5 @@ unzip StandIn_v13_Net35_45.zip
 
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_ODY3Njk2ZjktZjY5MC00MzZlLThjZjMtMWE5ZTNmMDAwOTg2%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
-Aldeen
-https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmU5NTA4OTAtYWE2NS00NGM4LWE5MTQtYjU0MzVkZWNjNDdm%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
+th
+https://mp.weixin.qq.com/s?__biz=MzI2MDc2MDA4OA==&mid=2247515949&idx=1&sn=9f574b014a89e7d4faf9d6e1990c83d3&poc_token=HCVEumijUSH6XSaVZjWWWfnh1wQx3Ddk0m7jHu8K
