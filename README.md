@@ -91,12 +91,48 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzRiZjFhODUtYzVhMi00YjJjL
 
 
 
-plz map tthe CVEs into this format, reference to https://www.oracle.com/security-alerts/cpuapr2026.html  
-e.g.,  
-- CVE-2022-45688 - Affects Oracle Siebel CRM 17.0-25.11  
+The following CVEs have published proof‑of‑concept (PoC) exploits according to GovCERT information, and the corresponding Oracle patches are recommended to be prioritized.
+CVE-2022-45688 – Affects Oracle Siebel CRM 17.0–25.11
+CVE-2023-1436 – Affects Oracle Siebel CRM Integration (REST/Jettison) 17.0–26.2
+CVE-2023-34453 – Affects Oracle Communications Cloud Native Core Network Exposure Function 24.2.1
+CVE-2023-46750 – Affects Oracle Adapter for Eclipse RDF4J 24.1.0
+CVE-2024-6387 – Affects Sun ZFS Storage Appliance Kit 8.8
+CVE-2024-29371 – Affects Oracle Siebel CRM Integration (Event Publish and Subscribe) 17.0–26.2
+CVE-2024-31573 – Affects Oracle SOA Suite (Fabric Layer / xmlunit) 12.2.1.4.0, 14.1.2.0.0
+CVE-2025-0725 – Affects Oracle Access Manager 14.1.2.0.0
+CVE-2025-15467 – Affects Multiple Oracle products, including:
 
-the data need to format:
-CVE-2022-45688, CVE-2023-1436, CVE-2023-34453, CVE-2023-46750, CVE-2024-6387, CVE-2024-29371, CVE-2024-31573, CVE-2025-0725, CVE-2025-15467, CVE-2025-24970, CVE-2025-26791, CVE-2025-27636, CVE-2025-35036, CVE-2025-53864, CVE-2025-54571, CVE-2025-58050, CVE-2025-58057, CVE-2025-58754, CVE-2025-59419, CVE-2025-61984, CVE-2025-65018, CVE-2025-67735, CVE-2025-68973, CVE-2026-0861, CVE-2026-21452, CVE-2026-22184, CVE-2026-23490, CVE-2026-25646, CVE-2026-27727, CVE-2026-27830 and CVE-2026-33870
+Oracle Database Server
+Oracle Autonomous Health Framework
+Oracle Communications Cloud Native Core
+Oracle Business Intelligence Enterprise Edition
+Oracle MySQL (Server, Workbench, Enterprise Backup)
+PeopleSoft Enterprise PeopleTools
+(Versions vary by product; see Oracle April 2026 CPU risk matrices)
 
-please follow below format
-- [CVE ID] - Affects [product] [versions]
+CVE-2025-24970 – Affects Oracle Business Intelligence Enterprise Edition (Analytics Server / Netty) 8.2.0.0.0
+CVE-2025-26791 – Affects Oracle Communications Cloud Native Core NF Cloud Native Environment 25.1.200, 25.2.200
+CVE-2025-27636 – Affects Oracle Banking Virtual Account Management (Apache Camel) 14.5.0.0.0–14.8.0.0.0
+CVE-2025-35036 – Affects Oracle Middleware Common Libraries and Tools 12.2.1.4.0, 14.1.2.0.0
+CVE-2025-53864 – Affects Oracle Data Integrator (Nimbus JOSE+JWT) 12.2.1.4.0, 14.1.2.0.0
+CVE-2025-54571 – Affects Oracle Hyperion Infrastructure Technology 11.2.24.0.000
+CVE-2025-58050 – Affects Oracle Communications Operations Monitor (PCRE2) 5.2, 6.0
+CVE-2025-58057 – Affects Multiple Oracle Communications Cloud Native Core components (25.1.x–25.2.x, varies by module)
+CVE-2025-58754 – Affects PeopleSoft Enterprise CC Common Application Objects 9.2
+CVE-2025-59419 – Affects Oracle Business Intelligence Enterprise Edition (netty‑codec‑smtp) 8.2.0.0.0
+CVE-2025-61984 – Affects Oracle Communications Policy Management 15.0.0.0.0
+CVE-2025-65018 – Affects Oracle Hyperion Infrastructure Technology (libpng) 11.2.24.0.000
+CVE-2025-67735 – Affects Oracle GoldenGate Big Data and Application Adapters (Netty) 21.3–21.20, 23.4–23.10
+CVE-2025-68973 – Affects Oracle Communications Cloud Native Core (GnuPG) 25.1.201
+CVE-2026-0861 – Affects Oracle Communications Cloud Native Core & Unified Inventory Management (glibc)
+
+Cloud Native Core: 25.1.200, 25.2.200
+Unified Inventory Management: 7.7.0–8.0.0
+
+CVE-2026-21452 – Affects Oracle Communications Cloud Native Core Policy (MessagePack) 25.1.200
+CVE-2026-22184 – Affects Oracle Outside In Technology (zlib) 8.5.8
+CVE-2026-23490 – Affects Oracle Communications Cloud Native Core Policy (pyasn1) 25.1.202
+CVE-2026-25646 – Affects Oracle Communications Policy Management (libpng) 15.0.0.0.0
+CVE-2026-27727 – Affects Oracle Business Intelligence Enterprise Edition (Mchange Commons Java) 7.6.0.0.0, 8.2.0.0.0
+CVE-2026-27830 – Affects Oracle Business Intelligence Enterprise Edition (c3p0) 7.6.0.0.0, 8.2.0.0.0
+CVE-2026-33870 – Affects Oracle Database Clusterware (Micronaut) 19.3–19.30, 23.4.0–23.26.1
