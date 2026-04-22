@@ -89,3 +89,14 @@ unzip StandIn_v13_Net35_45.zip
 
 https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzRiZjFhODUtYzVhMi00YjJjLTk3NzItZjhkODE1MWEwNjNj%40thread.v2/0?context=%7b%22Tid%22%3a%22513294a0-3e20-41b2-a970-6d30bf1546fa%22%2c%22Oid%22%3a%22031e8033-4604-4cf6-a162-73be85389a62%22%7d
 
+
+
+plz map tthe CVEs into this format, reference to https://www.oracle.com/security-alerts/cpuapr2026.html  
+e.g.,  
+- CVE-2022-45688 - Affects Oracle Siebel CRM 17.0-25.11  
+
+the data need to format:
+CVE-2022-45688, CVE-2023-1436, CVE-2023-34453, CVE-2023-46750, CVE-2024-6387, CVE-2024-29371, CVE-2024-31573, CVE-2025-0725, CVE-2025-15467, CVE-2025-24970, CVE-2025-26791, CVE-2025-27636, CVE-2025-35036, CVE-2025-53864, CVE-2025-54571, CVE-2025-58050, CVE-2025-58057, CVE-2025-58754, CVE-2025-59419, CVE-2025-61984, CVE-2025-65018, CVE-2025-67735, CVE-2025-68973, CVE-2026-0861, CVE-2026-21452, CVE-2026-22184, CVE-2026-23490, CVE-2026-25646, CVE-2026-27727, CVE-2026-27830 and CVE-2026-33870
+
+please follow below format
+- [CVE ID] - Affects [product] [versions]
