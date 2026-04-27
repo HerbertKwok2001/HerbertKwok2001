@@ -91,48 +91,71 @@ https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzRiZjFhODUtYzVhMi00YjJjL
 
 
 
-The following CVEs have published proof‑of‑concept (PoC) exploits according to GovCERT information, and the corresponding Oracle patches are recommended to be prioritized.
-CVE-2022-45688 – Affects Oracle Siebel CRM 17.0–25.11
-CVE-2023-1436 – Affects Oracle Siebel CRM Integration (REST/Jettison) 17.0–26.2
-CVE-2023-34453 – Affects Oracle Communications Cloud Native Core Network Exposure Function 24.2.1
-CVE-2023-46750 – Affects Oracle Adapter for Eclipse RDF4J 24.1.0
-CVE-2024-6387 – Affects Sun ZFS Storage Appliance Kit 8.8
-CVE-2024-29371 – Affects Oracle Siebel CRM Integration (Event Publish and Subscribe) 17.0–26.2
-CVE-2024-31573 – Affects Oracle SOA Suite (Fabric Layer / xmlunit) 12.2.1.4.0, 14.1.2.0.0
-CVE-2025-0725 – Affects Oracle Access Manager 14.1.2.0.0
-CVE-2025-15467 – Affects Multiple Oracle products, including:
+Dear HKMA Team,
 
-Oracle Database Server
-Oracle Autonomous Health Framework
-Oracle Communications Cloud Native Core
-Oracle Business Intelligence Enterprise Edition
-Oracle MySQL (Server, Workbench, Enterprise Backup)
-PeopleSoft Enterprise PeopleTools
-(Versions vary by product; see Oracle April 2026 CPU risk matrices)
+We are writing to inform you that several bank and financial institutions were mentioned in a recent dark web post. Based on our current assessment, HKMA is not impacted.
 
-CVE-2025-24970 – Affects Oracle Business Intelligence Enterprise Edition (Analytics Server / Netty) 8.2.0.0.0
-CVE-2025-26791 – Affects Oracle Communications Cloud Native Core NF Cloud Native Environment 25.1.200, 25.2.200
-CVE-2025-27636 – Affects Oracle Banking Virtual Account Management (Apache Camel) 14.5.0.0.0–14.8.0.0.0
-CVE-2025-35036 – Affects Oracle Middleware Common Libraries and Tools 12.2.1.4.0, 14.1.2.0.0
-CVE-2025-53864 – Affects Oracle Data Integrator (Nimbus JOSE+JWT) 12.2.1.4.0, 14.1.2.0.0
-CVE-2025-54571 – Affects Oracle Hyperion Infrastructure Technology 11.2.24.0.000
-CVE-2025-58050 – Affects Oracle Communications Operations Monitor (PCRE2) 5.2, 6.0
-CVE-2025-58057 – Affects Multiple Oracle Communications Cloud Native Core components (25.1.x–25.2.x, varies by module)
-CVE-2025-58754 – Affects PeopleSoft Enterprise CC Common Application Objects 9.2
-CVE-2025-59419 – Affects Oracle Business Intelligence Enterprise Edition (netty‑codec‑smtp) 8.2.0.0.0
-CVE-2025-61984 – Affects Oracle Communications Policy Management 15.0.0.0.0
-CVE-2025-65018 – Affects Oracle Hyperion Infrastructure Technology (libpng) 11.2.24.0.000
-CVE-2025-67735 – Affects Oracle GoldenGate Big Data and Application Adapters (Netty) 21.3–21.20, 23.4–23.10
-CVE-2025-68973 – Affects Oracle Communications Cloud Native Core (GnuPG) 25.1.201
-CVE-2026-0861 – Affects Oracle Communications Cloud Native Core & Unified Inventory Management (glibc)
+The institutions referenced include:
 
-Cloud Native Core: 25.1.200, 25.2.200
-Unified Inventory Management: 7.7.0–8.0.0
+•	Standard Chartered Bank (Hong Kong) Ltd / Standard Chartered Bank
+•	HSBC EU / HSBC EU DC
+•	Bank of China
+•	ICBC
+•	China Construction Bank
+•	JPMorgan Chase / JPMorgan Chase US S1
+•	Citibank N.A. (Singapore Branch)
+•	Citigroup
+•	BNP Paribas (BNPP)
+•	UBS Switzerland
+•	Credit Suisse
+•	Wells Fargo
+•	Royal Bank of Canada
+•	Lloyds Banking Group
+•	Northern Trust Bank
 
-CVE-2026-21452 – Affects Oracle Communications Cloud Native Core Policy (MessagePack) 25.1.200
-CVE-2026-22184 – Affects Oracle Outside In Technology (zlib) 8.5.8
-CVE-2026-23490 – Affects Oracle Communications Cloud Native Core Policy (pyasn1) 25.1.202
-CVE-2026-25646 – Affects Oracle Communications Policy Management (libpng) 15.0.0.0.0
-CVE-2026-27727 – Affects Oracle Business Intelligence Enterprise Edition (Mchange Commons Java) 7.6.0.0.0, 8.2.0.0.0
-CVE-2026-27830 – Affects Oracle Business Intelligence Enterprise Edition (c3p0) 7.6.0.0.0, 8.2.0.0.0
-CVE-2026-33870 – Affects Oracle Database Clusterware (Micronaut) 19.3–19.30, 23.4.0–23.26.1
+On Saturday 18 April 2026, an administrator of the ShinyHunters data extortion group posted on BreachForums that they are allegedly “selling the Cisco breach”. 
+
+Per the post, the compromised data includes highly sensitive data including but not limited to: 
+•	Source code (GitHub, GitLab, SonarQube projects)
+•	Hardcoded credentials & API tokens
+•	Private/public keys & SSL certificates
+•	AWS & Azure storage buckets
+•	Docker builds & internal tooling
+•	Jira tickets & confidential documents
+•	Customer-related source repositories
+
+The post further contains a list of companies whose source code was allegedly taken, full list of customers, and sample data. We have analysed the available data and observed the affected companies was mentioned in the “Full list of Customers”. The post does not specify which company has been potentially affected. We recommend contacting Cisco to ascertain the scope and impact of the breach. 
+
+Recommendations:
+We will continue to monitor the situation and notify you of any material developments.  Based on the data types allegedly compromised, we recommend that impacted parties consider taking the following actions:
+
+•	Contact Cisco – to ascertain the scope and impact of the breach and recommended actions.
+•	Credential & Secrets Rotation
+o	Immediately rotate all API keys, tokens, and credentials stored in or referenced by source code repositories (GitHub, GitLab, SonarQube)
+o	Rotate AWS IAM access keys and Azure storage account access keys
+o	Revoke and reissue SSL/TLS certificates where private keys may have been exposed
+o	Revoke and reissue GitHub/GitLab deploy keys and personal access tokens
+o	Scan all source code repositories for hardcoded secrets using tools such as TruffleHog, Gitleaks, or native GitHub/GitLab secret scanning
+•	Source Code & Cloud Infrastructure 
+o	Review repository clone and access logs for anomalous or high-volume activity
+o	Audit AWS CloudTrail and S3 access logs for unauthorised API calls or data access events
+o	Enable multi-factor authentication (MFA) on all developer, cloud, and CI/CD platform accounts if not already enforced
+•	Other Monitoring Advice
+o	Monitor threat intelligence and dark web sources for any public release of your organisation's data
+o	Review Jira and Confluence audit logs for any unauthorised access to internal documentation
+
+Dark Web Post:
+ 
+
+OSINT Reporting:
+https://securityboulevard.com/2026/04/cisco-crm-salesforce-data-breach-claims-tied-to-shinyhunters-what-defenders-should-look-for-and-how-to-respond/
+https://x.com/DailyDarkWeb/status/2045690740752130399
+
+Best regards,
+Herbert Kwok | PwC | Consulting
+PricewaterhouseCoopers
+22/F Prince's Building, Central, Hong Kong
+tel +852 2289 3463
+herbert.mh.kwok@hk.pwc.com | http://www.pwchk.com
+
+
