@@ -163,4 +163,37 @@ Myself: https://teams.microsoft.com/meet/277341552045479?p=pc0vLSuk3TFVcbSf98
 
 Wendy: https://teams.microsoft.com/meet/299010849203334?p=2wDdbV2Os6SoI3pds0 
 
-Andy - https://teams.microsoft.com/meet/277341552045479?p=pc0vLSuk3TFVcbSf98
+Meeting Agenda: TI Workflow & SOP Review
+
+Meeting Link
+https://teams.microsoft.com/meet/277341552045479?p=pc0vLSuk3TFVcbSf98
+
+Material to Share
+https://confluence.intra.hkma.gov.hk/pages/editpage.action?pageId=226867521
+
+
+#1 Define Endorsement Workflow / Update Workflow 
+-	Endorsement Workflow  (Add / Remove Operation)
+o	Current process:
+	Create Jira [TI] Playbook Endorsement + follow-up email
+o	Discussion points:
+	What criteria should trigger endorsement
+	Who approves the endorsement
+-	Update Workflow (Optimized / Modified Operation)
+o	Current process:
+	Reflected during Monthly review
+o	Improvement:
+	Document in Jira
+
+
+#2 Walkthrough Endorsed SOP (In Blue)
+-	Police Force Alert 
+-	CVE Updates 
+-	Threat Hunt 
+-	Domain Monitoring / Security Incident Alert
+-	Phishing Email Alert
+
+
+#3 TI Operation Workflow Review (In Yellow)
+-	Highlighted Items in SOC Monthly Meeting
+
