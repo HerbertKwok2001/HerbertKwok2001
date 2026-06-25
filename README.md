@@ -93,12 +93,16 @@ Herbert---- Join: https://teams.microsoft.com/meet/266976326404196?p=eknNTZYavb0
 tmp- https://teams.microsoft.com/meet/44314118918734?p=ZXazt78ICnmDkc71zI 
 
 
-Trellix (McAfee & FireEye) claimed as victim of RansomHouse ransomware - 07 May 2026
-RansomHouse is a Ransomware-as-a-Service (RaaS) group known to operate a structured affiliate network program, whereby affiliates conduct double extortion attacks; exfiltrating data and deploying ransomware. The group were first observed in December 2021 and are known to leverage multiple infiltration vectors with the end objective of deploying the Mario ransomware strain against VMware environments. 
-
-Per the Trellix victim post, the ransomware encryption occurred on 17 April 2026. The post further contained a link to download their “Evidence pack”, which includes screenshots of allegedly compromised environments. Based on our initial analysis of the Evidence pack, it appears that the threat actor gained access to Trellix’s virutalised infrastructure; including their internal inventory comprising of over 3000 virtual machines. We further ascertained based on screenshot evidence that the RansomHouse affiliate achieved administrative privileges to takeover both EntSec and FireEye. 
-
-To the extent Trellix products are used within your environment, we wish to share our proactive stance on response and mitigation.
-•	Monitor your infrastructure for suspicious activity, particularly on systems using Trellix products. Focus on anomalous authentication patterns and lateral movement. 
-•	Inquire and await formal guidance from Trellix regarding scope and patches before making reactive changes to security configurations.
-
+FortiBleed – Active Fortinet Credential Harvesting Campaign
+UPDATE: Indicators of Compromise (IoCs) Available
+Introduction
+On 17 June 2026, multiple reports emerged regarding an active, large-scale credential harvesting campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN appliances – dubbed “FortiBleed”.1,2 This came shortly after a security researcher discovered an exposed, unauthenticated operational server containing the threat group's tooling, automation scripts, and a database of verified working credentials.3
+FortiBleed is a fully automated, self-perpetuating credential harvesting operation attributed to a Russian-speaking cybercriminal group. The campaign does not exploit any novel zero-day vulnerability; rather, it leverages credentials sourced from prior Fortinet-related data breaches and infostealer malware logs, cycling them at industrial scale against internet-exposed FortiGate management interfaces and SSL VPN endpoints.
+The threat actor's advantage derives entirely from credentials never rotated following prior Fortinet-related breach events, enriched with infostealer malware logs harvested from compromised endpoints – reinforcing the cruciality of continuous dark web monitoring for credential exposures.
+This is a developing event – our team will continue to monitor for updates and provide further notifications as material developments emerge.
+UPDATE: New reporting indicates that in addition to Fortinet, Sophos SSL-VPN, RD-Web, and MSSQL were targeted; further the threat actor behind the FortiBleed campaign is likely operating as an Initial Access Broker.4 We issue this follow-up report based on newly available intelligence, including the availability of Indicators of Compromise (IoCs).
+FortiBleed is a fully automated, three-stage credential harvesting operation.
+1.
+Automated Scanning for Internet-facing FortiGate devices on TCP ports 443, 4443, 8443, and 10443.
+Export Device Configuration and Offline Hash Cracking –
+Credential Reuse to Establish Foothold
