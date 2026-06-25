@@ -91,3 +91,14 @@ unzip StandIn_v13_Net35_45.zip
 
 Herbert---- Join: https://teams.microsoft.com/meet/266976326404196?p=eknNTZYavb0KN4S2Oc 
 tmp- https://teams.microsoft.com/meet/44314118918734?p=ZXazt78ICnmDkc71zI 
+
+
+Trellix (McAfee & FireEye) claimed as victim of RansomHouse ransomware - 07 May 2026
+RansomHouse is a Ransomware-as-a-Service (RaaS) group known to operate a structured affiliate network program, whereby affiliates conduct double extortion attacks; exfiltrating data and deploying ransomware. The group were first observed in December 2021 and are known to leverage multiple infiltration vectors with the end objective of deploying the Mario ransomware strain against VMware environments. 
+
+Per the Trellix victim post, the ransomware encryption occurred on 17 April 2026. The post further contained a link to download their “Evidence pack”, which includes screenshots of allegedly compromised environments. Based on our initial analysis of the Evidence pack, it appears that the threat actor gained access to Trellix’s virutalised infrastructure; including their internal inventory comprising of over 3000 virtual machines. We further ascertained based on screenshot evidence that the RansomHouse affiliate achieved administrative privileges to takeover both EntSec and FireEye. 
+
+To the extent Trellix products are used within your environment, we wish to share our proactive stance on response and mitigation.
+•	Monitor your infrastructure for suspicious activity, particularly on systems using Trellix products. Focus on anomalous authentication patterns and lateral movement. 
+•	Inquire and await formal guidance from Trellix regarding scope and patches before making reactive changes to security configurations.
+
