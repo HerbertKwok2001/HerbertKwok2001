@@ -91,18 +91,3 @@ unzip StandIn_v13_Net35_45.zip
 
 Herbert---- Join: https://teams.microsoft.com/meet/266976326404196?p=eknNTZYavb0KN4S2Oc 
 tmp- https://teams.microsoft.com/meet/44314118918734?p=ZXazt78ICnmDkc71zI 
-
-
-FortiBleed – Active Fortinet Credential Harvesting Campaign
-UPDATE: Indicators of Compromise (IoCs) Available
-Introduction
-On 17 June 2026, multiple reports emerged regarding an active, large-scale credential harvesting campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN appliances – dubbed “FortiBleed”.1,2 This came shortly after a security researcher discovered an exposed, unauthenticated operational server containing the threat group's tooling, automation scripts, and a database of verified working credentials.3
-FortiBleed is a fully automated, self-perpetuating credential harvesting operation attributed to a Russian-speaking cybercriminal group. The campaign does not exploit any novel zero-day vulnerability; rather, it leverages credentials sourced from prior Fortinet-related data breaches and infostealer malware logs, cycling them at industrial scale against internet-exposed FortiGate management interfaces and SSL VPN endpoints.
-The threat actor's advantage derives entirely from credentials never rotated following prior Fortinet-related breach events, enriched with infostealer malware logs harvested from compromised endpoints – reinforcing the cruciality of continuous dark web monitoring for credential exposures.
-This is a developing event – our team will continue to monitor for updates and provide further notifications as material developments emerge.
-UPDATE: New reporting indicates that in addition to Fortinet, Sophos SSL-VPN, RD-Web, and MSSQL were targeted; further the threat actor behind the FortiBleed campaign is likely operating as an Initial Access Broker.4 We issue this follow-up report based on newly available intelligence, including the availability of Indicators of Compromise (IoCs).
-FortiBleed is a fully automated, three-stage credential harvesting operation.
-1.
-Automated Scanning for Internet-facing FortiGate devices on TCP ports 443, 4443, 8443, and 10443.
-Export Device Configuration and Offline Hash Cracking –
-Credential Reuse to Establish Foothold
