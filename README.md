@@ -91,3 +91,61 @@ unzip StandIn_v13_Net35_45.zip
 
 Herbert---- Join: https://teams.microsoft.com/meet/266976326404196?p=eknNTZYavb0KN4S2Oc 
 tmp- https://teams.microsoft.com/meet/44314118918734?p=ZXazt78ICnmDkc71zI 
+
+Summary
+Kaspersky researchers have identified StrikeShark, a cyber espionage campaign attributed with low confidence to a Chinese-speaking threat actor. The campaign leverages a custom malware loader, SharkLoader, to deploy Cobalt Strike Beacon against government, diplomatic, and software development organizations across multiple regions, including Indonesia, Taiwan, Lebanon, Syria, Hong Kong, Colombia, North Macedonia, Nepal, and Serbia.
+
+The threat actors employ a variety of initial access vectors, primarily through the exploitation of publicly exposed vulnerabilities in internet-facing systems. Once access is established, SharkLoader facilitates stealthy post-exploitation activities and persistent access.
+
+Target Sectors
+•	Government
+•	Technology / Software Development
+
+Exploited Technologies and Vulnerabilities
+The campaign has been observed targeting multiple internet-facing products through known remote code execution (RCE) and authentication bypass vulnerabilities, including:
+
+Product	Vulnerability
+Microsoft Exchange	CVE-2021-26855 (ProxyLogon), CVE-2022-41082
+Openfire Server	CVE-2023-32315
+GeoServer	CVE-2024-36401
+Apache Shiro	CVE-2016-4437
+Hikvision Products	CVE-2021-36260
+Microsoft SharePoint	CVE-2021-27076
+Zimbra Collaboration Suite	CVE-2022-27925
+F5 BIG-IP	CVE-2023-46747
+Fortinet FortiOS	CVE-2024-21762, CVE-2022-40684
+Cisco IOS XE Web UI	CVE-2023-20198
+React Server Components	CVE-2025-55182
+
+Recommended Mitigations
+•	Immediate Remediation
+Prioritize patching and hardening all internet-facing systems
+•	Infrastructure Blocking
+Block and monitor all identified malicious domains, IP addresses, and associated command-and-control (C2) infrastructure linked to the StrikeShark campaign.
+•	Threat Hunting
+Conduct proactive threat hunting activities to identify indicators associated with SharkLoader and Cobalt Strike Beacon
+•	Detection and Monitoring
+•	Monitor web-facing applications for exploitation attempts targeting the listed CVEs.
+•	Deploy Endpoint Detection and Response (EDR) solutions capable of detecting memory-resident malware and process injection techniques.
+•	Review historical logs for evidence of exploitation, lateral movement, privilege escalation, and beaconing activity.
+•	Enhance network monitoring to identify anomalous outbound connections to suspicious or previously unseen destinations.
+
+Indicators of Compromises
+IOC Value	Type
+c559cc68986933200fd5d9e4388e2f58	MD5
+b3352b42432dedc4a519f011dc8b5d5a	MD5
+24fcebdeecba65004fdb0923763d74fd	MD5
+1f65544978b8ea0e745e573b8ee9684b	MD5
+9c872a0d5d5a38950e8b9ac9b488be3f	MD5
+aa3086be652c8b20b0b29b2730d57119	MD5
+d98f568496512e4f98670c61c97cb07a	MD5
+a514d1bb62d7916475946fe7c07ac0aa	MD5
+9cbd560f820c95d7c38342cd558cb5c6	MD5
+connect-microsoft[.]com	Domain
+ms-record[.]com	Domain
+ms-record[.]top	Domain
+ms-tray[.]top	Domain
+
+Reference: https://securelist.com/strikeshark-campaign/120326/
+
+
